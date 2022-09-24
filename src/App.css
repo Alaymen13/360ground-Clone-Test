@@ -1,0 +1,522 @@
+/* NavBar Section */
+.header {
+	display: flex;
+	border-bottom: 0.1px solid lightgray;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+}
+.header1 .Link h6{
+padding:10px;
+/* margin:10px */
+}
+.logo > img {
+	height: 45px;
+	margin-left: 23px;
+}
+.header .lists {
+	margin-right: 40px;
+	margin-top: 7px;
+	justify-content: space-evenly;
+}
+.header .lists .lists1 > Nav.Link {
+	margin-right: 40px;
+	color: blue;
+	justify-content: space-evenly;
+}
+
+/* NavBar Section End*/
+
+/* Section1 */
+.Sec1title {
+	margin-top: 37px;
+	display: block;
+	/* font-size: 50px; */
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 600 !important;
+	box-sizing: border-box;
+	line-height: 1.5;
+	font-size: 4.3vw;
+	font-family: Montserrat !important;
+}
+.Sec1subtitle {
+	color: #929ba8;
+	font-family: Montserrat !important;
+}
+.sec1img > img {
+	align-items: center;
+	max-width: 78%;
+	margin-top: 30px;
+}
+
+.icon1 {
+	border-radius: 10em !important;
+	background: -webkit-radial-gradient(
+		left top,
+		circle cover,
+		#0cb4ce,
+		#006cff 100%
+	);
+	display: flex;
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+	
+}
+.icon11{
+align-items:center;
+}
+/* Section1 End*/
+
+/* SECTION 2 */
+.bg {
+	height: 100%;
+	background: -webkit-radial-gradient(
+		left top,
+		circle cover,
+		#0cb4ce 9%,
+		#006cff 48%,
+		#6442ff 91%
+	);
+	opacity: 0.85;
+}
+
+.section2 {
+	padding-top: 77px;
+}
+.section2 span {
+	color: white;
+	font-weight: 700 !important;
+	box-sizing: border-box;
+	line-height: 1.2;
+}
+
+.section2 > h6 {
+	font-size: 13px;
+	color: white;
+	padding-bottom: 10px;
+}
+.section2 > h5 {
+	font-size: 25px;
+	color: white;
+	padding-top: 20px;
+	font-family: Montserrat !important ;
+}
+
+/* horizontal line  */
+.section2 hr  {
+	margin-top: 55px;
+	margin-bottom: 55px;
+	color: white;
+}
+.section4 >hr {
+	margin-top: 26px;
+	margin-bottom: 25px;
+	color: black;
+}
+.section5 >hr {
+height:1.5px;
+	margin-top: 26px;
+	margin-bottom: 25px;
+	color: #f56a06;
+}
+.sec2list div {
+	color: white;
+	padding: 25px;
+}
+.sec2list div h4 {
+	font-size: 23px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.sec2list div h6 {
+	line-height: 1.5;
+}
+
+/* SECTION 2 END*/
+
+/* SECTION 3  */
+.bg-opacity3{
+    position: relative;
+    background-color: #000;
+}
+
+.bg-opacity3::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.7;
+    background:       url("https://360ground.com/wp-content/uploads/2020/09/meda-chat.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+}
+.sec3bgi {
+	
+	opacity:0.9;
+	width: 100%;
+	height: 100%;
+	background-image: url(https://360ground.com/wp-content/uploads/2020/09/meda-chat.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: cover;
+	border-radius: inherit;
+}
+
+.sec3bgc{
+	background-color:black;
+}
+.sec3img > img {
+	align-items: center;
+    max-width: 78%;
+    margin-top: 30px;
+}
+
+
+.section3 span {
+	padding-right:10%;
+	margin-right:30%;
+	color: white;
+	font-weight: 800 !important;
+	box-sizing: border-box;
+	line-height: 1.2;
+}
+
+.section3 > h6 {
+	font-size: 11px;
+	color: white;
+	padding-bottom: 14px;
+	padding-top: 32px
+}
+.section3 > h5 {
+	font-size: 23px;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-family: Montserrat !important ;
+}
+.sec3container {
+padding-bottom: 57px;
+}
+/* SECTION 3 END */
+
+/* SECTION 4 */
+.sec4bg{
+height: 100%;
+background-color: #fde400;
+
+}
+
+.sec4img > img {
+	align-items: center;
+    max-width: 78%;
+    margin-top: 30px;
+}
+
+
+.section4 span {
+	color: black;
+	font-weight: 700 !important;
+	box-sizing: border-box;
+	line-height: 1.2;
+}
+
+.section4 > h6 {
+	font-size: 11px;
+	color: black;
+	padding-bottom: 10px;
+	padding-top: 90px
+}
+.section4 > h5 {
+	font-size: 23px;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	font-family: Montserrat !important ;
+}
+.section4 > button {
+	margin-bottom:90px
+}
+/* SECTION 4 END*/
+
+/* SECTION 5 */
+.section5 {
+	margin-top:90px;
+	margin-bottom:30px;
+}
+.section5 span {
+	color: #f56a06;
+	font-weight: 700 !important;
+	box-sizing: border-box;
+	line-height: 1.2;
+	margin-top:90px;
+}
+
+.section5 > h5 {
+	font-size: 23px;
+	color: #f56a06;
+	/* padding-top: 20px; */
+	padding-bottom: 35px;
+	padding-top:35px;
+	font-family: Montserrat !important ;
+}
+/* SECTION 5 END */
+
+/* SECTION 6 */
+
+.bg-opacity{
+    position: relative;
+    background-color: #000;
+}
+
+.bg-opacity::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.7;
+    background:       url("https://360ground.com/wp-content/uploads/2020/09/QESSP-.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sec6img {
+	align-items: center;
+    max-width: 78%;
+    margin-top: 30px;
+}
+
+.section6 {
+	padding-top:120px;
+	
+}
+.Section6 {
+padding-bottom:120px;	
+}
+.section6 span {
+	color: white;
+	font-weight: 700 !important;
+	box-sizing: border-box;
+	line-height: 1.2;
+}
+
+.section6 > h5 {
+	font-size: 23px;
+	color: white;
+	/* padding-top: 20px; */
+	padding-bottom: 35px;
+	font-family: Montserrat !important ;
+}
+/* SECTION 6 END*/
+
+/* SECTION 7 */
+.section7 >img{
+	transition: transform 0.1s ease-in;
+	cursor: pointer;
+}
+.section7 >img:hover{
+   transform: scale(1.04)
+}
+/* SECTION 7 END */
+
+/* SECTION 8  */
+.section8 h2 span {
+	padding-bottom:15px;
+	font-size:40px;
+	font-weight:800;
+	-webkit-text-fill-color: transparent!important;
+    -webkit-background-clip: text!important;
+	 color: #0cb4ce!important;
+	background: -webkit-radial-gradient(left top,circle cover,#0cb4ce 9%,#006cff 48%,#6442ff 91%);
+}
+
+.section7props h1 a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+.section7props h1 a:hover {
+  color: #01db45;
+ 
+}
+a{
+	 color: black;
+  text-decoration: none; /* no underline */
+}
+a:hover {
+  color:#8f8f8f ;
+ 
+}
+.h1center {
+	padding-top:50px;
+	text-align:center
+}
+/* SECTION 8 ENDS  */
+
+/* FOOTER SECTION */
+.footer {
+	background-color:black;
+}
+.footer h3 {
+	padding-top:45px;
+	padding-bottom:40px;
+	font-size:40px;
+	color:white;
+	font-family: Montserrat !important ;
+}
+.footer h4 {
+	font-family: Montserrat !important ;
+	color:white;
+}
+.footer span {
+	margin-top:25px;
+	font-size:18px;
+	color:white;
+}
+.footer h6 {
+	padding-left:50px;
+	padding-top:90px;
+	padding-bottom:80px;
+	align-items:center;
+	color:white;
+}
+.footer hr {
+margin-top:20px;
+margin-bottom:20px;
+	color:white;
+}
+
+/* FOOTER SECTION END */
+
+/* MEDIAQUERY FOR RESPONSIVE WEBSITE */
+/* Extra small small small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+	.Sec1title {
+		font-size: 40px;
+	}
+	.Sec1subtitle {
+		font-size: 25px;
+	}
+	.section2 span {
+		font-size: 36px;
+	}
+	.section3 span {
+		font-size: 36px;
+	}
+	.section4 span {
+		font-size: 36px;
+	}
+	.section4 h5 {
+		line-height:1.6
+	}
+	.section5 span {
+		font-size: 36px;
+	}
+	.section6 span {
+		font-size: 36px;
+	}
+}
+/* Extra small smal devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) {
+	.Sec1title {
+		font-size: 32px;
+	}
+	.Sec1subtitle {
+		font-size: 22px;
+	}
+	.section2 span {
+		font-size: 36px;
+	}
+	.section3 span {
+		font-size: 36px;
+	}
+	.section4 span {
+		font-size: 36px;
+	}
+	.section5 span {
+		font-size: 36px;
+	}
+	.section6 span {
+		font-size: 36px;
+	}
+	.section8 span {
+	font-size:42px;
+}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+	.Sec1title {
+		font-size: 40px;
+	}
+	.Sec1subtitle {
+		font-size: 26px;
+	}
+	.section2 span {
+		font-size: 60px;
+	}
+	.section3 span {
+		font-size: 60px;
+	}
+	.section4 span {
+		font-size: 60px;
+	}
+	.section5 span {
+		font-size: 60px;
+	}
+	.section6 span {
+		font-size: 60px;
+	}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.Sec1title {
+		font-size: 46px;
+	}
+	.section2 span {
+		font-size: 70px;
+	}
+	
+	.section3 span {
+		font-size: 70px;
+	}
+	.section4 span {
+		font-size: 70px;
+	}
+	.section5 span {
+		font-size: 70px;
+	}
+	.section6 span {
+		font-size: 70px;
+	}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
+	/* Styles */
+	.Sec1title {
+		font-size: 9.3vw;
+	}
+}
